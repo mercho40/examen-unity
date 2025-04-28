@@ -26,9 +26,6 @@ public class examen : MonoBehaviour
       kmRecorridos = cantidadDeUnidades * 90;
       kmRecorridos = kmRecorridos * periodoDeDias;
       litrosConsumidos = kmRecorridos / 15;
-      if(kmRecorridos % 15 > 0){
-        litrosConsumidos = litrosConsumidos + 1;
-      }
       costoTotalCombustible = litrosConsumidos * 130;
 
       if (litrosConsumidos >= 100)
