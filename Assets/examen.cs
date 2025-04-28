@@ -33,7 +33,11 @@ public class examen : MonoBehaviour
 
       if (litrosConsumidos >= 100)
       {
+         Debug.Log("Descuento del 20% aplicado");
+          Debug.Log("Precio sin descuento aplicado: " + costoTotalCombustible);
          costoTotalCombustible = costoTotalCombustible * 0.8; 
+         Debug.Log("Precio con descuento aplicado: " + costoTotalCombustible );
+
       }
       Debug.Log("Una flota de "+ cantidadDeUnidades + " unidades trabajando durante " + periodoDeDias + " días implicará un gasto de " + costoTotalCombustible + " pesos en concepto de combustible");
         

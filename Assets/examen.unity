@@ -148,8 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7785e6a60b8934c2786583117df5df2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadDeUnidades: 30
-  periodoDeDias: 9
+  cantidadDeUnidades: 1
+  periodoDeDias: 5
 --- !u!4 &1838331112
 Transform:
   m_ObjectHideFlags: 0
